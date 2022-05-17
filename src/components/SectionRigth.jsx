@@ -3,7 +3,6 @@ function SectionRigth({ data }) {
     info: {
       width: "100%",
       textAlign: "center",
-      paddingLeft: "15%",
     },
   };
   return (
