@@ -7,19 +7,23 @@ function Header({ data }) {
   useEffect(() => {
     setNavTitle(Object.keys(data));
   }, [data]);
-
+  const style = {
+    fontSize: "20px",
+  };
   return (
     <>
       <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">
         <Container>
           <Navbar.Toggle aria-controls="responsive-navbar-nav" />
-          <Navbar.Collapse id="responsive-navbar-nav">
-            <Nav className="me-auto">
-              <Nav.Link href="/">Home</Nav.Link>
+          <Navbar.Collapse id="responsive-navbar-nav m-auto">
+            <Nav className="m-auto">
+              <Nav.Link style={style} href="/">
+                Home
+              </Nav.Link>
               {navTitle &&
                 navTitle.map((e, index) => {
                   return (
-                    <Nav.Link key={index} href={`/${e}`}>
+                    <Nav.Link style={style} key={index} href={`/${e}`}>
                       {e}
                     </Nav.Link>
                   );

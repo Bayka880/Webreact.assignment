@@ -4,8 +4,9 @@ const style = {
   body: {
     display: "flex",
     width: "100%",
-    paddingTop: "50px",
+    paddingTop: "10%",
     flexDirection: "column",
+    backgroundImage: "linear-gradient(160deg, #0093E9 0%, #80D0C7 100%);",
   },
   link: {
     textDecoration: "none",

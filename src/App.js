@@ -26,12 +26,11 @@ function App() {
     minHeight: "100vh",
     display: "flex",
     flexDirection: "column",
-    justifyContent: "space-between",
   };
   return (
-    <div>
+    <div style={style}>
       <Header data={nav} />
-      <div style={style}>
+      <main>
         <Routes>
           <Route path="/" element={<Main />}></Route>
           {titles &&
@@ -59,8 +58,8 @@ function App() {
               );
             })}
         </Routes>
-        <Footer />
-      </div>
+      </main>
+      <Footer />
     </div>
   );
 }

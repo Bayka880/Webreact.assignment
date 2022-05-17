@@ -4,6 +4,7 @@ function Footer() {
       marginTop: "auto",
       color: "grey",
       height: "150px",
+
       textAlign: "center",
     },
     in: {
@@ -12,9 +13,10 @@ function Footer() {
   };
   return (
     <div style={style.outer} className="footer bg-dark">
-      <p style={style.in} className="footer">
+      <footer style={style.in} className="footer">
+        {" "}
         Footer
-      </p>
+      </footer>
     </div>
   );
 }
