@@ -1,0 +1,48 @@
+{
+  "HTMl": {
+    "Tags": {
+      "title": "Body",
+      "body": "Defines the document's body"
+    },
+    "Attributes": {
+      "title": "All HTML elements have attributes",
+      "body": "For exampale: The href attribute of <a> specifies the URL of the page the link goes to      "
+    }
+  },
+  "CSS": {
+    "Unit": {
+      "title": "Rem",
+      "body": "Relative to font-size of the root element"
+    },
+    "Layout": {
+      "title": "Web Layout",
+      "body": "Modern CSS has exceptionally powerful layout tooling. We have dedicated systems for layout and we're going to have a high-level look at what we have at our disposal, before digging into more detail of Flexbox and Grid in the next modules."
+    }
+  },
+  "JavaScript": {
+    "Condition": {
+      "title": "If else ",
+      "body": "Very often when you write code, you want to perform different actions for different decisions. You can use conditional statements in your code to do this. In JavaScript we have the following conditional statements"
+    },
+    "CallbackFunction": {
+      "title": "Callback function",
+      "body": "A callback is a function passed as an argument to another function."
+    }
+  },
+  "React": {
+    "Hook": {
+      "title": "Hook",
+      "body": "UseState:Hooks solve a wide variety of seemingly unconnected problems in React that we’ve encountered over five years of writing and maintaining tens of thousands of components. Whether you’re learning React, use it daily, or even prefer a different library with a similar component model, you might recognize some of these problems. "
+    },
+    "Components": {
+      "title": "Definition if Components",
+      "body": "Components let you split the UI into independent, reusable pieces, and think about each piece in isolation. This page provides an introduction to the idea of component "
+    }
+  },
+  "Element": {
+    "JSX": {
+      "title": "JSX",
+      "body": "React embraces the fact that rendering logic is inherently coupled with other UI logic: how events are handled, how the state changes over time, and how the data is prepared for display."
+    }
+  }
+}
