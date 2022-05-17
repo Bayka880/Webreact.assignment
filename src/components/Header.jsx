@@ -15,8 +15,8 @@ function Header({ data }) {
       <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">
         <Container>
           <Navbar.Toggle aria-controls="responsive-navbar-nav" />
-          <Navbar.Collapse id="responsive-navbar-nav m-auto">
-            <Nav className="m-auto">
+          <Navbar.Collapse id="responsive-navbar-nav ">
+            <Nav className="d-flex justify-content-around w-100 ">
               <Nav.Link style={style} href="/">
                 Home
               </Nav.Link>
